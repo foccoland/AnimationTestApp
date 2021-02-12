@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/piano_emitter_right"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginEnd="-50dp"
+            android:layout_gravity="top|end" />
+
+        <View
+            android:id="@+id/piano_emitter_left"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="-70dp" />
+
+    </FrameLayout>
+</layout>
